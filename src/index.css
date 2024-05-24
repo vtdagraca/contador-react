@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}  
+body {
+    background-image: url(https://www.fitcontabil.com.br/wp-content/uploads/2021/03/iStock-912808702-1080x675.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    border: 5px solid black;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 170px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    transition: transform 0.3s ease;
+}
+h3 {
+    color: aliceblue;
+}
+.contador{
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    transition: transform 0.3s ease;
+}
+.contador:hover {
+    transform: scale(1.1);
+}
+.numero {
+    transition: transform 0.3s ease;
+    font-size: 100px; 
+    color: aliceblue;
+    -webkit-text-stroke-width: 2px; /* Define a largura da borda */
+    -webkit-text-stroke-color: black; /* Define a cor da borda */
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    cursor: pointer;
+}
+.numero:hover {
+    transform: scale(1.1);
+}
+button {
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+button span {
+    border: 2px solid black 
+}
+#um {
+    transition: transform 0.3s ease;
+}
+#dois {
+    transition: transform 0.3s ease;
+    width: 25px;
+}
+#um:hover {
+    transform: scale(1.1);
+}
+#dois:hover {
+    transform: scale(1.1);
+}
